@@ -1,12 +1,12 @@
-#include <stdio.h>
+#include <unistd.h>
 
 /**
- * Main - Entry Point
- * A program to print Matters on C
- * Return: 1 (Success)
+ * Main - and that piece of art is useful - Dora Korpar, 2015-10-19
+ * a C program that prints
+ * Return: Always 1
 */
 int main(void)
 {
-	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
