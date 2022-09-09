@@ -1,8 +1,8 @@
 #include <unistd.h>
 
 /**
- * Main - and that piece of art is useful - Dora Korpar, 2015-10-19
- * a C program that prints
+ * main - and that piece of art is useful - Dora Korpar, 2015-10-19
+ * Description: a C program that prints
  * Return: Always 1
 */
 int main(void)
