@@ -3,7 +3,7 @@
 /**
  * main - Entry Point
  * Description: a program that prints the alphabet in lowercase
- * Return = 0
+ * Return = 1
 */
 
 int main(void)
@@ -12,5 +12,5 @@ int main(void)
 
 	for (ch = 'a'; ch <= 'z'; ++ch)
 	putchar(ch);
-	return (0);
+	return (1);
 }
