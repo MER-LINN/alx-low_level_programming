@@ -5,7 +5,7 @@
 /*
  * main - 'Variables'
  * Description: This program will assign a random number to the variable n
- * Return = 0
+ * Return: 0
 */
 
 int main(void)
