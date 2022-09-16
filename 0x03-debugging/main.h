@@ -1,6 +1,6 @@
 #ifndef HOLBERTON_H_INCLUDED
 #define HOLBERTON_H_INCLUDED
-
+int main(void);
 int _putchar(char);
 void print_alphabet(void);
 void print_alphabet_x10(void);
@@ -17,5 +17,6 @@ void print_times_table(int n);
 void num(int r, int n);
 void positive_or_negative(int i);
 int largest_number(int a, int b, int c);
-int convert_day(int month, int day)
+int convert_day(int month, int day);
+void print_remaining_days(int month, int day, int year);
 #endif
