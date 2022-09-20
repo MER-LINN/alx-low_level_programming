@@ -1,5 +1,5 @@
-#include "main"
 #include <stdio.h>
+#include "main.h"
 
 /*
 * main - a function that takes a pointer to an int
