@@ -1,19 +1,15 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 
-/*
-* main - a function that takes a pointer to an int
-* Description: Pointers
-* Return: 0
+/**
+* main - check the code 
 *
+* Return: Always 0.
 */
 int main(void)
 {
-		int s;
-		int *p;
+		int n;
 
-		s = 98;
-		p = &s;
-		putchar("s=%d/n", s);
+		reset_to_98(&n);
 		return (0);
 }
